@@ -88,8 +88,8 @@ def give_details(user, data):
     Description : %s,
     Number of Friends : %s,
     Location : %s,
-    Most used Hashtags : %s,
-    Recent Tweets : 
+    Most used hashtags : %s,
+    Most retweeted Tweets : 
     ''' % (filtered_result.screen_name[0], filtered_result.name[0],
            filtered_result.description[0],
            filtered_result.friends_count[0], filtered_result.location[0],
