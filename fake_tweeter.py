@@ -65,7 +65,7 @@ def tokenize_input(inp):
 def predict_fake_tweeter(input_str, model, user_encoder):
     input_string = tokenize_input(input_str)
     inp_centroid = tweet2vec(input_string)
-    if inp_centroid==-1:
+    if type(inp_centroid)!='int':
         predicted_user = model.predict(np.array(inp_centroid).reshape(1, -1).astype(np.float))
         predicted_user_id = user_encoder.inverse_transform(predicted_user)
         if len(predicted_user)>0:
