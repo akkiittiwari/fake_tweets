@@ -9,7 +9,7 @@
 
 
 - Output :
-    - Details of you Fake Tweeter avatar
+    - Details of your Fake Tweeter avatar
     - Most used hashtags and most retweeted tweets from the Fake Tweeter
 
 
@@ -21,7 +21,7 @@
 
 
 - How to use :
-    - Run fake_tweeter.py with the input text as an argument for the first run :
+    - Run fake_tweeter.py with the input text as an argument for the first run : <br/>
         '''python3 fake_tweeter.py "North Korean Leader Kim Jong Un just stated that the 'Nuclear Button is on his desk at all times'."'''
 
     - From second iteration, the program waits for the user input and input can be directly entered there without running the file again
